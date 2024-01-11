@@ -8,34 +8,25 @@ function setup() {// runs once
 
 function draw() {//runs in a loop
 
-	translate(60,60); //this creates a new origin point
-	quad(
-	0,0,
-	300,0,
-	300,300,
-	0,300
-	);
+var num = 20
+
+var sideLen = windowWidth/num;
+
+	for (var y = 0; y < windowWidth; y = y + sideLen) {
 	
-	quad(
-	300,0,
-	600,0,
-	600,300,
-	300,300
-	); //move 300px x directiomn
+		for (var x = 0; x < windowWidth; x = x + sideLen) {
+		
+	quad (x,y,
+		x + sideLen,y,
+		x + sideLen, y + sideLen,
+		x,y +sideLen);
+
+		
+		
+}
 	
-	quad(
-	0,300,
-	300,300,
-	300,600,
-	0,600
-	);
+	
+}
 
-	quad(
-	300,300,
-	600,300,
-	600,600,
-	300,600
-	);
-
-
+noLoop():
 }
