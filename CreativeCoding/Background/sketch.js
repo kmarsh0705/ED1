@@ -14,7 +14,7 @@ function setup() {// runs once
 
 function draw() {//runs in a loop
 
-background(255,255,255);
+background('blue');
 
 var num = 20;
 
