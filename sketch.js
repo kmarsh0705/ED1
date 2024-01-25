@@ -13,9 +13,9 @@ function setup() {// runs once
 
 function draw() {//runs in a loop
 
-background('blue');
+background('gray');
 
-var num = 20;
+var num = 6;
 
 var sideLen = windowWidth/num;
 
