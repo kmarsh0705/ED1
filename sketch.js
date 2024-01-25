@@ -7,7 +7,7 @@ gif = loadImage ('assets/shift.gif');
 
 function setup() {// runs once
 	createCanvas(windowWidth, windowHeight);
-	background('blue');	
+	background('black');	
 	fill ('pink');
 }
 
