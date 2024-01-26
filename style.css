@@ -21,14 +21,14 @@ h1{
      transform: translateX(-50%) translateY(-50%);
      text-align: center;
      top: 1vw;
-     font-size:3vw
+     font-size:3vw;
        display: inline; background: Gray;
 }
 
 
 h3{
 display: inline; background: gray;
-    font-size:2vw
+    font-size:2vw;
 }
 
 p{
@@ -38,7 +38,7 @@ p{
     transform: translateX(-50%) translateY(-50%);
     text-align:center;
     top: 4vw%;
-    font-size:1.5vw
+    font-size:1.5vw;
 }
 
 table{
